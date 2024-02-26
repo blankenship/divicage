@@ -85,10 +85,10 @@ website: 	http://blankenship.xyz
   		border-radius: 1em;
   		border: none 0;
   		color: #111;
-  		font: 700 1.2em/2em "futura-pt", sans-serif;
+  		font: 700 1em/2em "futura-pt", sans-serif;
   		letter-spacing: .2em;
   		text-transform: uppercase;
-  		padding: 2rem 1rem;
+  		padding: 1rem 0;
   	}
 
   	button:hover {
