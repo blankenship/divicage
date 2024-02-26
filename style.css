@@ -85,12 +85,12 @@ website: 	http://blankenship.xyz
   	}
 
   	header img#logo {
-  		width:  15%;
+  		width:  1%;
   	}
 
 /*--LINKS */
 
-	footer p a { 
+	footer p a {
 		background:  silver;		
 		color: #2d2d2d;	
 		text-decoration: none;
