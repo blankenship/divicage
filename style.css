@@ -45,7 +45,9 @@ website: 	http://blankenship.xyz
 		margin-bottom: 6rem;
   	}
 
-  	header img#logo { width: 65%; }
+  	header img#logo { 
+  		margin: 0 auto;
+  		width: 65%; }
 
 
 /*--TYPOGRAPHY */
@@ -98,6 +100,7 @@ website: 	http://blankenship.xyz
   	}
 
   	button {
+  		display: block;
   		margin: 0 auto;
   		text-align: center;
   	}
