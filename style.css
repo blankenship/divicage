@@ -33,7 +33,6 @@ website: 	http://blankenship.xyz
 
 	body {
 		background: #111;
-		border: 10px solid #00CFFF;
 		color: #FFF;
 		line-height: 1.65;
 		margin: 0 auto;
@@ -43,7 +42,7 @@ website: 	http://blankenship.xyz
 	aside {
 		 animation: color-loop 7s infinite;
 	}
-	
+
 	@keyframes color-loop {
 		0% 		{ border-top: 7px solid #00CFFF; }
 		25%		{ border-top: 7px solid #00AEDD; }
@@ -52,10 +51,6 @@ website: 	http://blankenship.xyz
 		100%	{ border-top: 7px solid #C60000; }
 		}
 
-	main {
-		border: 10px solid #00AEDD;
-	}
-
  	header {
   		column-count: 2;
 		column-gap: 3rem;
@@ -63,9 +58,7 @@ website: 	http://blankenship.xyz
 		margin-bottom: 4rem;
   	}
 
-  	header img#logo {
-  		width:  75%;
-  	}
+  	header img#logo { width: 75%; }
 
 	footer {
 		border-top: 2px solid #fff;
@@ -75,9 +68,7 @@ website: 	http://blankenship.xyz
 
 /*--TYPOGRAPHY */
 
-	h1 {
-		display:  none;
-  	}
+	h1 { display: none; }
 
 	h2 {
 		font: 700 1.2em/1.4em "futura-pt", sans-serif;
@@ -85,13 +76,14 @@ website: 	http://blankenship.xyz
   		text-align: justify;
 	}
 
-	p {
-		font: 400 1.2em/1.2em "futura-pt", sans-serif;
-  	}
+	p { font: 400 1.2em/1.2em "futura-pt", sans-serif; }
+  	p a { color: #fff; }
+  	p a:hover { border-bottom: 1px solid #fff; }
 
   	button {
   		background: #FFB715;
-  		border-radius: 50%;
+  		border-radius: 1em;
+  		border: none 0;
   		color: #111;
   		font: 700 1.2em/2em "futura-pt", sans-serif;
   	}
