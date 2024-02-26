@@ -88,7 +88,7 @@ website: 	http://blankenship.xyz
   		font: 700 1em/2em "futura-pt", sans-serif;
   		letter-spacing: .2em;
   		text-transform: uppercase;
-  		padding: 1rem 0;
+  		padding: 0 1rem;
   	}
 
   	button:hover {
