@@ -33,14 +33,17 @@ website: 	http://blankenship.xyz
 
 	body {
 		background: #111;
+		border: 10px solid #00CFFF;
 		color: #FFF;
 		line-height: 1.65;
 		margin: 0 auto;
-		max-width: 1600px;
 		padding:  5rem;
-  		animation: color-loop 7s infinite;
 	}
 
+	aside {
+		 animation: color-loop 7s infinite;
+	}
+	
 	@keyframes color-loop {
 		0% 		{ border-top: 7px solid #00CFFF; }
 		25%		{ border-top: 7px solid #00AEDD; }
@@ -48,6 +51,10 @@ website: 	http://blankenship.xyz
 		75%		{ border-top: 7px solid #FF3600; }
 		100%	{ border-top: 7px solid #C60000; }
 		}
+
+	main {
+		border: 10px solid #00AEDD;
+	}
 
  	header {
   		column-count: 2;
@@ -63,9 +70,6 @@ website: 	http://blankenship.xyz
 	footer {
 		border-top: 2px solid #fff;
 		padding: 1rem 0;
-	  	column-count: 2;
-		column-gap: 3rem;
-		column-width: 50%;
 	}
 
 
