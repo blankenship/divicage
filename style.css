@@ -1,0 +1,239 @@
+/* 
+
+styles:		whatsyour.webcam
+
+origin: 	1.0 — 07/07/21
+version: 	1.1 — 07/14/22 Update
+author: 	Joshua Blankenship
+email: 		joshua@blankenship.xyz
+website: 	http://blankenship.xyz
+
+/*--FOUNDATION */
+
+	*, html, body, div, span, object, iframe,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li, img, figure, figcaption,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box;
+		-webkit-font-smoothing: antialiased; 
+		font-smoothing: antialiased;
+		margin: 0;
+		padding: 0;
+		outline: none;
+		}
+
+	/* This dumb hack keeps text from flowing
+	outside columns for some reason grrrrrrr*/
+	li, main {
+	-webkit-column-break-inside: avoid;
+	          page-break-inside: avoid;
+	               break-inside: avoid;
+	-webkit-backface-visibility: hidden;
+	}
+
+	html {
+    	font-size: 16px;
+	}
+
+	body {
+		background: #f0f0f0;
+		color: #2d2d2d;
+		line-height: 1.65;
+		margin: 0 auto;
+		max-width: 1600px;
+		padding:  5rem;
+	}
+
+/*--TYPOGRAPHY */
+
+	h1 {
+		display:  none;
+  	}
+
+	h2 {
+		font: 400 1.2em/1.4em input-mono, monospace, sans-serif;
+		margin-bottom: 2.4rem;
+  		text-align: justify;
+	}
+	
+	h3 {
+		color: tomato;
+		font: 700 1.2em/1.2em input-mono, monospace, sans-serif;
+		margin-bottom: 2.4rem;
+		text-transform: uppercase;
+  	}
+
+	h4 {
+		display: inline-block;
+		font: 400 1.2em/1.4em input-mono, monospace, sans-serif;
+		text-align: justify;
+  	}
+
+	p {
+		font: 400 1.2em/1.2em input-mono, monospace, sans-serif;
+		margin-bottom: 1.2rem;
+
+  	}
+
+  	p small {
+  		display:  block;
+  		font: 700 .6em/1em input-mono, monospace, sans-serif;
+  		letter-spacing: .3em;
+  		margin-bottom: .5rem;
+  		text-transform: uppercase;
+  	}
+
+  	footer p small {
+  		letter-spacing: 0;
+  	}
+
+	section {
+		border-top:  2px solid #2d2d2d;
+		margin:  0 auto;
+		padding: 3rem 0;
+	}
+
+ 	header {
+  		column-count: 2;
+		column-gap: 3rem;
+		column-width: 50%;
+		margin-bottom: 4rem;
+  	}
+
+  	header img#logo {
+  		width:  15%;
+  	}
+
+  	header img#face {
+  		width: 100%;
+  	}
+
+  	section ul { 
+  		column-count: 3;
+		column-gap: 3rem;
+		column-width: auto;
+		list-style-type: none; 
+		padding:  3rem 0;
+	}
+
+  	section ul.duo { 
+  		column-count: 2;
+	}
+
+  	section ul.quad { 
+  		column-count: 4;
+	}
+
+
+
+/*--LINKS */
+
+	footer p a { 
+		background:  silver;		
+		color: #2d2d2d;	
+		text-decoration: none;
+	}
+
+	footer p a:hover { 
+		background: tomato;		
+		color: darkred;
+	}
+
+	main a { 
+		background: tomato;		
+		color: darkred;
+		text-decoration: none;
+	}
+
+	main a:hover { 
+		background:  silver;		
+		color: #2d2d2d;	
+	}
+	
+
+
+
+
+
+/*--BONES */
+
+
+	section img { 
+		filter: grayscale(1);
+		margin:  0 auto 1rem;
+		mix-blend-mode: multiply;
+		width: 100%; 
+	}
+
+	section img.color,
+	img:hover {
+		filter: grayscale(0);
+	}
+
+	footer {
+		border-top: 2px solid #2d2d2d;
+		padding: 1rem 0;
+	  	column-count: 2;
+		column-gap: 3rem;
+		column-width: 50%;
+	}
+
+
+/* SCRUNCH */
+
+
+	@media (min-width: 1px) and (max-width: 900px) {
+
+	body {
+		padding: 3vw;
+	}
+
+	header,
+	section ul,
+	section ul.duo,
+	section ul.quad,
+	footer {
+  		column-count: 1;
+		column-width: 100%;
+  	}
+
+  	h2, h4 {
+  		text-align:  left;
+  	}
+
+	h3 {	
+		font: 700 1.6em/1.2em input-mono, monospace, sans-serif;
+		margin-bottom: 1.2rem;
+	}
+	
+	section {
+		border-top:  0 none;
+	}
+
+	section ul li {
+		margin-bottom: 4rem;
+	}
+
+	section ul li p {
+		border-bottom:  2px solid #ddd;
+		margin-bottom: 2rem;
+		padding-bottom: 1rem;
+	}
+
+  	header img#logo {
+  		margin:  1rem 37vw 3rem;
+  		text-align: center;
+  		width: 20vw;
+  	}
+
+  	header main h2,
+  	footer p {
+  		text-align: center;
+  	}
+
+	}
