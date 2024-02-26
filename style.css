@@ -1,9 +1,9 @@
 /* 
 
-styles:		whatsyour.webcam
+styles:		Divicage
 
-origin: 	1.0 — 07/07/21
-version: 	1.1 — 07/14/22 Update
+origin: 	1.0 — 02/26/24
+version: 	1.1 — 02/26/24 Update
 author: 	Joshua Blankenship
 email: 		joshua@blankenship.xyz
 website: 	http://blankenship.xyz
@@ -27,22 +27,13 @@ website: 	http://blankenship.xyz
 		outline: none;
 		}
 
-	/* This dumb hack keeps text from flowing
-	outside columns for some reason grrrrrrr*/
-	li, main {
-	-webkit-column-break-inside: avoid;
-	          page-break-inside: avoid;
-	               break-inside: avoid;
-	-webkit-backface-visibility: hidden;
-	}
-
 	html {
     	font-size: 16px;
 	}
 
 	body {
-		background: #f0f0f0;
-		color: #2d2d2d;
+		background: #111;
+		color: #FFF;
 		line-height: 1.65;
 		margin: 0 auto;
 		max-width: 1600px;
@@ -68,12 +59,6 @@ website: 	http://blankenship.xyz
 		text-transform: uppercase;
   	}
 
-	h4 {
-		display: inline-block;
-		font: 400 1.2em/1.4em input-mono, monospace, sans-serif;
-		text-align: justify;
-  	}
-
 	p {
 		font: 400 1.2em/1.2em input-mono, monospace, sans-serif;
 		margin-bottom: 1.2rem;
@@ -92,12 +77,6 @@ website: 	http://blankenship.xyz
   		letter-spacing: 0;
   	}
 
-	section {
-		border-top:  2px solid #2d2d2d;
-		margin:  0 auto;
-		padding: 3rem 0;
-	}
-
  	header {
   		column-count: 2;
 		column-gap: 3rem;
@@ -108,28 +87,6 @@ website: 	http://blankenship.xyz
   	header img#logo {
   		width:  15%;
   	}
-
-  	header img#face {
-  		width: 100%;
-  	}
-
-  	section ul { 
-  		column-count: 3;
-		column-gap: 3rem;
-		column-width: auto;
-		list-style-type: none; 
-		padding:  3rem 0;
-	}
-
-  	section ul.duo { 
-  		column-count: 2;
-	}
-
-  	section ul.quad { 
-  		column-count: 4;
-	}
-
-
 
 /*--LINKS */
 
@@ -144,16 +101,6 @@ website: 	http://blankenship.xyz
 		color: darkred;
 	}
 
-	main a { 
-		background: tomato;		
-		color: darkred;
-		text-decoration: none;
-	}
-
-	main a:hover { 
-		background:  silver;		
-		color: #2d2d2d;	
-	}
 	
 
 
@@ -163,17 +110,6 @@ website: 	http://blankenship.xyz
 /*--BONES */
 
 
-	section img { 
-		filter: grayscale(1);
-		margin:  0 auto 1rem;
-		mix-blend-mode: multiply;
-		width: 100%; 
-	}
-
-	section img.color,
-	img:hover {
-		filter: grayscale(0);
-	}
 
 	footer {
 		border-top: 2px solid #2d2d2d;
