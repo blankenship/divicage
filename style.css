@@ -59,31 +59,19 @@ website: 	http://blankenship.xyz
 
   	header img#logo { width: 65%; }
 
-	footer {
-		border-top: 2px solid #fff;
-		text-align: center;
-		padding: 1rem 0;
-	}
-
 
 /*--TYPOGRAPHY */
 
 	h1 { display: none; }
 
 	h2 {
-		font: 400 1.2em/1.4em "century-old-style-std", serif;
-		margin-bottom: 2.4rem;
+		font: 400 1.3em/1.6em "century-old-style-std", serif;
+		margin-bottom: 1.6rem;
 	}
 
 	h2 span {
-		display: inline-block;
-		font: 700 1.2em/1.4em "futura-pt", sans-serif;
-		margin-bottom: 2.4rem;
+		font: 700 .9em/1.4em "futura-pt", sans-serif;
 	}
-
-	p { font: 400 1.2em/1.2em "futura-pt", sans-serif; }
-  	p a { color: #fff; }
-  	p a:hover { border-bottom: 1px solid #fff; }
 
   	button {
   		background: #FFB715;
