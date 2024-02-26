@@ -38,7 +38,16 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 		max-width: 1600px;
 		padding:  5rem;
+  		animation: color-loop 2s infinite;
 	}
+
+	@keyframes color-loop {
+		0% { border-top: 10px solid #00CFFF; }
+		25% { border-top: 10px solid #00AEDD; }
+		50% { border-top: 10px solid #FFB715; }
+		75% { border-top: 10px solid #FF3600; }
+		100% { border-top: 10px solid #C60000; }
+		}
 
 /*--TYPOGRAPHY */
 
@@ -51,13 +60,6 @@ website: 	http://blankenship.xyz
 		margin-bottom: 2.4rem;
   		text-align: justify;
 	}
-	
-	h3 {
-		color: tomato;
-		font: 700 1.2em/1.2em input-mono, monospace, sans-serif;
-		margin-bottom: 2.4rem;
-		text-transform: uppercase;
-  	}
 
 	p {
 		font: 400 1.2em/1.2em input-mono, monospace, sans-serif;
@@ -85,7 +87,7 @@ website: 	http://blankenship.xyz
   	}
 
   	header img#logo {
-  		width:  100%;
+  		width:  75%;
   	}
 
 /*--LINKS */
