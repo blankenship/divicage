@@ -38,46 +38,16 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 		max-width: 1600px;
 		padding:  5rem;
-  		animation: color-loop 2s infinite;
+  		animation: color-loop 7s infinite;
 	}
 
 	@keyframes color-loop {
-		0% { border-top: 10px solid #00CFFF; }
-		25% { border-top: 10px solid #00AEDD; }
-		50% { border-top: 10px solid #FFB715; }
-		75% { border-top: 10px solid #FF3600; }
-		100% { border-top: 10px solid #C60000; }
+		0% 		{ border-top: 7px solid #00CFFF; }
+		25%		{ border-top: 7px solid #00AEDD; }
+		50%		{ border-top: 7px solid #FFB715; }
+		75%		{ border-top: 7px solid #FF3600; }
+		100%	{ border-top: 7px solid #C60000; }
 		}
-
-/*--TYPOGRAPHY */
-
-	h1 {
-		display:  none;
-  	}
-
-	h2 {
-		font: 400 1.2em/1.4em input-mono, monospace, sans-serif;
-		margin-bottom: 2.4rem;
-  		text-align: justify;
-	}
-
-	p {
-		font: 400 1.2em/1.2em input-mono, monospace, sans-serif;
-		margin-bottom: 1.2rem;
-
-  	}
-
-  	p small {
-  		display:  block;
-  		font: 700 .6em/1em input-mono, monospace, sans-serif;
-  		letter-spacing: .3em;
-  		margin-bottom: .5rem;
-  		text-transform: uppercase;
-  	}
-
-  	footer p small {
-  		letter-spacing: 0;
-  	}
 
  	header {
   		column-count: 2;
@@ -90,37 +60,38 @@ website: 	http://blankenship.xyz
   		width:  75%;
   	}
 
-/*--LINKS */
-
-	footer p a {
-		background:  silver;		
-		color: #2d2d2d;	
-		text-decoration: none;
-	}
-
-	footer p a:hover { 
-		background: tomato;		
-		color: darkred;
-	}
-
-	
-
-
-
-
-
-/*--BONES */
-
-
-
 	footer {
-		border-top: 2px solid #2d2d2d;
+		border-top: 2px solid #fff;
 		padding: 1rem 0;
 	  	column-count: 2;
 		column-gap: 3rem;
 		column-width: 50%;
 	}
 
+
+/*--TYPOGRAPHY */
+
+	h1 {
+		display:  none;
+  	}
+
+	h2 {
+		font: 700 1.2em/1.4em "futura-pt", sans-serif;
+		margin-bottom: 2.4rem;
+  		text-align: justify;
+	}
+
+	p {
+		font: 400 1.2em/1.2em "futura-pt", sans-serif;
+  	}
+
+  	button {
+  		background: #FFB715;
+  		border-radius: 50%;
+  		color: #111;
+  		font: 700 1.2em/2em "futura-pt", sans-serif;
+  	}
+	
 
 /* SCRUNCH */
 
